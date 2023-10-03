@@ -15,8 +15,8 @@ echo "Installing AppDynamics PHP agent: ${agentVersionId}"
 varFileBaseName="installVars"
 varFile="${containingDir}/${varFileBaseName}"
 
-rpmBaseName="appdynamics-php-agent.x86_64.rpm"
-tarballBaseName=""
+rpmBaseName=""
+tarballBaseName="appdynamics-php-agent-linux_x64.tar.bz2"
 
 if [ ! -r "${varFile}" ] ; then
     echo "Unable to find install variables at: ${varFile}" >&2
